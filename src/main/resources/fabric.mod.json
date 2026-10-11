@@ -1,0 +1,21 @@
+{
+    "schemaVersion": 1,
+    "id": "baucinastatuemod",
+    "version": "1.0.0",
+    "name": "Baucinastatue Mod",
+    "description": "A mod that adds a Baucinastatue entity that can transform into a boat",
+    "authors": ["YourName"],
+    "license": "MIT",
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "com.fabryolc05.baucinastatuemod.BaucinastatueMod"
+        ]
+    },
+    "mixins": [],
+    "depends": {
+        "fabricloader": ">=0.14.0",
+        "minecraft": "1.21.4",
+        "fabric-api": "*"
+    }
+}
